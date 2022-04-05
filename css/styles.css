@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(218, 23%, 16%);
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  position: relative;
+  top: 20%;
+}
+
+h1 {
+  color: hsl(150, 100%, 66%);
+  text-align: center;
+  padding: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+#adviceContent {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+#contentDivider {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+#adviceBtn {
+  background-color: hsl(150, 100%, 66%);
+  border: 1px solid hsl(150, 100%, 66%);
+  border-radius: 50%;
+  padding: 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: -29px;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 766px) {
+  main {
+    width: calc(100% / 3);
+  }
+
+  #contentDivider {
+    content: url('../images/pattern-divider-desktop.svg');
+  }
+}
